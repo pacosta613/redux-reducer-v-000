@@ -1,7 +1,11 @@
 export function managePresents(state, action){
 
-  if (action.type === "numberOfPresents") {
-    return {}
+  switch (action.type) {
+    case "INCREASE":
+      
+      break;
+    default:
+      
   }
 
 }
