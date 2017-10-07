@@ -1,11 +1,11 @@
 export function manageFriends(state, action){
 
   switch (action.type) {
-    case expression:
-
+    case 'ADD_FRIEND':
+      return { friends: state.friends  }
       break;
     default:
-      return state
+      return state;
   }
 
 }
